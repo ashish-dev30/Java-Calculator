@@ -1,0 +1,11 @@
+# Eclipse files
+bin/
+.settings/
+.classpath
+.project
+
+# Java compiled files
+*.class
+
+# Calculator generated file
+history.txt
