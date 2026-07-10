@@ -21,6 +21,9 @@ public class Operations {
 	
 	public int division(int num1, int num2) {
 		System.out.println("\n----- Division -----");
+		if(num2 == 0) {
+			throw new ArithmeticException("Cannot divide by zero.");
+		}
 		return num1 / num2;
 	}
 
@@ -110,7 +113,7 @@ public class Operations {
 		for(int i = 2; i < num1; i++) {
 			if(num1 % i == 0) {
 				isPrime = false;
-				break; 
+				break;  
 			}
 		}
 		return isPrime;
