@@ -126,10 +126,4 @@ public class Operations {
 		}
 		return  Math.sqrt(num1);
 	}
-	
-	public Operations() {
-		System.out.println("Operations Object Created!");
-		int x = 10;
-		System.out.println(x);
-	}
 } 
